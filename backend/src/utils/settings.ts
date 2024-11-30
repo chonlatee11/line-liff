@@ -1,0 +1,13 @@
+export const PORT = process.env.PORT ?? '3000';
+export const SOCKET_PORT = process.env.SOCKET_PORT ?? '3001';
+export const MONGODB_DB = process.env.MONGODB_DB ?? '';
+export const MONGODB_URI = process.env.MONGODB_URI ?? 'localhost';
+export const MONGODB_PORT = process.env.MONGODB_PORT ?? '27017';
+export const MONGODB_USER = process.env.MONGODB_USER ?? '';
+export const MONGODB_PASS = process.env.MONGODB_PASS ?? '';
+export const SALT_ROUNDS = process.env.SALT_ROUNDS ?? '10';
+export const DEFAULT_RICH_MENU_ID = process.env.DEFAULT_RICH_MENU_ID ?? '';
+export const LOGIN_RICH_MENU_ID = process.env.LOGIN_RICH_MENU_ID ?? '';
+export const LINE_BOT_BASE_URL = process.env.LINE_BOT_BASE_URL ?? '';
+export const LINE_CHANEL_ACCESS_TOKEN = process.env.LINE_CHANEL_ACCESS_TOKEN ?? '';
+export const LINE_CHANEL_SECRET = process.env.LINE_CHANEL_SECRET ?? '';
